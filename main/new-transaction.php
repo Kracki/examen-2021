@@ -39,5 +39,6 @@
         </label>
         <input type="hidden" value="<?= organizeName($contacts[0]["nom"], $contacts[0]["prenom"]) ?>">
     </form>
+    <a href="../main/index.php">Retour à la liste des transactions</a>
 </body>
 </html>
