@@ -46,10 +46,3 @@ function concernedPerson(string $person): int {
     $person = $person - 1;
     return $person;
 }
-/**
- * 
- * 
- */
-function sortDate(string $date1, string $date2) {
-    return strtotime($date1) - strtotime($date2);
-}
