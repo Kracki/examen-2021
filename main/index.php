@@ -32,5 +32,6 @@
         <?php endif; ?>
     <?php endforeach; ?>
    </ul>
+   <a href="../main/new-transaction.php">Nouvelle transaction</a>
 </body>
 </html>
