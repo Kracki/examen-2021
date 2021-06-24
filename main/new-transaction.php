@@ -38,6 +38,7 @@
             <input type="number" name="year" maxlength="4" value="<?= $date[2] ?>" required>
         </label>
         <input type="hidden" value="<?= organizeName($contacts[0]["nom"], $contacts[0]["prenom"]) ?>">
+        <br>
         <input type="submit" value="Sauvegarder la transaction">
     </form>
     <a href="../main/index.php">Retour à la liste des transactions</a>
